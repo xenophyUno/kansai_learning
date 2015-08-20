@@ -1,0 +1,11 @@
+# .gitignore
+
+### OSX ###
+.DS_Store
+.sass-cache
+
+### Vim ###
+.*.swp
+
+### idea
+.idea
