@@ -3,69 +3,126 @@ body {
 	height: 1400px;
 	width:  1200px;
 }
+
+/* common setting */
+.margin {
+	margin: 0px 120px 0px 120px;
+}
+
+.no_margin {
+	margin: 0px;	
+}
+
 /*   header design       */
 header {
 	background-color: #026699;
-	height: 20px;	
+	height: 20px;
 	width: 100%;
-	vertical-align: middle;
+}
+
+.art_header {
+	font-size:     10px;
+	padding-top:    3px;
+	padding-bottom: 3px;
 	padding-left: 120px;
 }
 
-/*   article design       */
+/*   article design      */
 article {
 	height: 1065px;
 	width: 960px;
-	margin: 0 120px 0 120px;
 }
-div#navi {
+
+.navi {
 	width: 100%;
 	height: 85px;
 }
-	h1#title {
-		background-color: yellow;
+	h1 {
+		/*background-color: yellow;*/
+		float: left;
+		padding-top: 24px;
+		padding-bottom: 25px;
+		padding-right: 25px;
+	}
+	.MENU {
+		height: 100%;
+		/*background-color: green;*/
 		float: left;
 	}
-	ul#MENU {
-		background-color: green;
+
+	ul.MENU.no_margin li {
 		float: left;
+		font-size: 12px;
+		width: 100px;
+		padding-top: 35px;
 	}
-		li#menu1,li#menu2,li#menu3,li#menu4 {
-			float: left;
-		}
-div#mainImage {
+
+.mainImage {
 	background-color: #428AB0;
 	height: 330px;
 	width: 100%;
+}
+.art_mainImage {
+	color: #A1C7D9;
+	font-size: 25px;
+	text-align: right;
+	padding-top: 280px;
+	padding-right: 20px;
 }
 
 /*   footer design       */
 footer {
 	width: 100%;
 	height: 315px;
-	background-color: #026699;	
+	background-color: #026699;
 }
-div#SUBMENU {
+.container_footer {
+	color: white;
 	width: 960px;
 	height: 260px;
-	margin: 0 120px 0 120px;
 }
-div#copyLight {
+	.container_address {
+		width: 36%;
+		float: left;
+	}
+		h3 {
+			margin-top: 40px;
+			margin-bottom: 25px;
+		}
+		.address {
+			font-size: 12px;
+		}
+	.container_subMenu {
+		float: left;
+		width: 32%;
+	}
+		.subMenu {
+			margin-top: 40px;
+			margin-left: 10%;
+			font-size: 12px;
+		}
+			div.subMenu ul {
+				margin-top: 20px;
+				padding-left: 15px;
+			}
+			div.subMenu ul li {
+				margin-bottom: 8px;
+			}
+			div.subMenu h4 {
+				border-bottom: solid 2px;
+				padding-bottom: 3px;
+			}
+.copyLight {
 	width: 100%;
 	height: 55px;
-	text-align: center;
 	background-color: white;
 }
-div#address {
-	width: 40%;
-	float: left;
+.art_copyLight {
+	text-align: center;
+	/*padding: 15px 0px 15px 0px;*/
+	font-size: 11px;
+	padding-top: 25px;
 }
-div#subMenu1 {
-	width: 30%;
-	float: left;
-}
-div#subMenu2 {
-	width: 30%;
-	float: left;
-}
-h4 {}
+
+
+
