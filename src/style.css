@@ -37,16 +37,16 @@ article {
 	width: 100%;
 	height: 85px;
 }
+
 	h1 {
-		/*background-color: yellow;*/
 		float: left;
 		padding-top: 24px;
 		padding-bottom: 25px;
 		padding-right: 25px;
 	}
+
 	.MENU {
 		height: 100%;
-		/*background-color: green;*/
 		float: left;
 	}
 
@@ -69,6 +69,47 @@ article {
 	padding-top: 280px;
 	padding-right: 20px;
 }
+
+.selector {
+	background-color: blue;
+	width: 100%;
+	height: 55px;
+}
+
+.container_article {
+	width: 100%;
+	height: 595px;
+}
+
+.main_article {
+	float: left;
+	width: 700px;
+	height: 100%;
+	margin-right: 40px;
+	background-color: green;
+}
+
+.container_banner {
+	float: left;
+	width: 220px;
+	height: 100%;
+	background-color: red;
+}
+	.banner {
+		width: 216px;
+		height: 96px;
+		background-color: #EFEFEF;
+		border: 2px #DBDBDB solid;
+		/*border-width: 5px;*/
+		/*border-color: #DBDBDB;*/
+		margin-bottom: 15px;
+	}
+		.art_banner {
+			color: #C8C8C8;
+		}
+
+
+
 
 /*   footer design       */
 footer {
