@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+		<title>JacaScriptの練習</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- <link rel="stylesheet" type="text/css" href="../style.css"> -->
+
+		<script type="text/javascript" src="button.js"></script>
+		<script type="text/javascript" src="tbltest.js"></script>
+		<script type="text/javascript" src="imgdisp.js"></script>
+</head>
+<body>
+<p>色の変更ができるよ！</p>
+<p align="center">▼▼　▼▼　▼▼　▼▼　▼▼</p><hr>
+<form name="frm">
+<input id="btn" type="button" value="color change!w" onclick="hoge()">
+</form>
+	
+
+<div id="btn2" onclick="hoge2()">color change!2<br> to blue!</div>
+	
+<hr>
+<p>⭐︎点数計算１⭐︎</p>
+<hr>
+<div>
+	<table id="tbl">
+		<tr><th>科目</th><th>点数</th></tr>
+		<tr><td>国語</td><td><input type="text"　class="Nyuryoku" id="tensu1" value="">点</td></tr>
+		<tr><td>算数</font></td><td><input type="text"　class="Nyuryoku" id="tensu2" value="">点</td></tr>
+		<tr><td>社会</font></td><td><input type="text"　class="Nyuryoku" id="tensu3" value="">点</td></tr>
+		<tr><td><input type="button" id="sum" value="合計" onclick="calc()"></td><td><input type="text" id="sumcell" value=""></td></tr>
+	</table>
+</div>
+
+<div>
+	<table　id="tbl2">
+	<tr><th>科目</th>　<th>点数</th></tr>
+		<tr><td></th><td><input type="text" id="tensu1" value="">点</td>　</tr>
+		<tr><td></th><td><input type="text" id="tensu2" value="">点</td></tr>
+		<tr><td></th><td><input type="text" id="tensu3" value=""></td></tr>
+		<tr><td><input type="button" id="sum" value="合計" onclick="calc()"></th><td><input type="text" id="sumcell" value=""></td></tr>
+	</table>
+
+
+	</table>
+</div>
+<hr>
+<input type="button" id="b4img" onclick="disp()" value="表示！">
+<div id="fieldimg"></div>
+
+
+	
+
+</body>
+</html>
