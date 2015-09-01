@@ -3,6 +3,7 @@ body{
 }
 
 
+
  #btn {
  	margin:　auto; 
  	width:200px;  height: 50px; 
@@ -26,7 +27,7 @@ body{
 	margin: 20px auto;
 }
 
-table th {
+#tbl th {
 	color: #fff;
 	background: #258;
 	font-weight: bold;
@@ -39,13 +40,13 @@ table th {
 
 }
 
-table th:first-child {
+#tbl th:first-child {
 	border-radius: 5px 0 0 0; /*角を丸める*/
 
 
 }
 
-table th:last-child{
+#tbl th:last-child{
 	border-radius:0 5px 0 0;
 	border-right:1px solid #258;
 	box-shadow:  2px 2px 1px rgba(0,0,0,0.1), 0px 1px 1px rgba(255,255,255,0.3) inset;
@@ -53,40 +54,40 @@ table th:last-child{
 	/**/
 
 }
-table tr td {
+#tbl tr td {
   padding: 8px 15px;
   border-bottom: 1px solid #84b2e0;
   border-left: 1px solid #84b2e0;
   text-align: center;
 }
 
-table tr td:last-child {
+#tbl tr td:last-child {
   border-right: 1px solid #84b2e0;
   box-shadow: 2px 2px 1px rgba(0,0,0,0.1);
 }
 
-table tr {
+#tbl tr {
   background: #fff;
 }
 
-table tr:nth-child(2n+1) {
+#tbl tr:nth-child(2n+1) {
   background: #f1f6fc;
 }
 
-table tr:last-child td {
+#tbl tr:last-child td {
 
   box-shadow: 2px 2px 1px rgba(0,0,0,0.1);
 }
 
-table tr:last-child td:first-child {
+#tbl tr:last-child td:first-child {
   border-radius: 0 0 0 5px;
 }
 
-table tr:last-child td:last-child {
+#tbl tr:last-child td:last-child {
   border-radius: 0 0 5px 0;
 }
 
-table tr:hover {
+#tbl tr:hover {
   background: #bbd4ee;
 
 }
