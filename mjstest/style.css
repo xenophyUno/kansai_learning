@@ -1,0 +1,110 @@
+body{
+	text-align: center;
+}
+
+
+
+ #btn {
+ 	margin:　auto; 
+ 	width:200px;  height: 50px; 
+ 	cursor: pointer;
+ 	background-color: white; 
+ }
+
+#btn2 {
+	margin: 20px auto; 
+	width:200px; height:50px; 
+	border-radius:5px /5px; 
+	background:white; border-color:black; 
+	box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+ 	cursor: pointer; font-size:2; 
+ 
+ }
+
+#tbl {
+	boder-spacing: 0;
+	width:200px; height:200px;
+	margin: 20px auto;
+}
+
+#tbl th {
+	color: #fff;
+	background: #258;
+	font-weight: bold;
+	border-left: 1px solid #258;
+	border-top: 1px solid #258;
+	border-bottom: 1pc solid #258;
+	line-height:  120%;
+	text-align: center;
+	box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset; 
+
+}
+
+#tbl th:first-child {
+	border-radius: 5px 0 0 0; /*角を丸める*/
+
+
+}
+
+#tbl th:last-child{
+	border-radius:0 5px 0 0;
+	border-right:1px solid #258;
+	box-shadow:  2px 2px 1px rgba(0,0,0,0.1), 0px 1px 1px rgba(255,255,255,0.3) inset;
+	/*box-shadow: 水平方向　垂直　ぼかし距離　広がり距離　inset＝ボックスの外側の影から内側の影に変更*/
+	/**/
+
+}
+#tbl tr td {
+  padding: 8px 15px;
+  border-bottom: 1px solid #84b2e0;
+  border-left: 1px solid #84b2e0;
+  text-align: center;
+}
+
+#tbl tr td:last-child {
+  border-right: 1px solid #84b2e0;
+  box-shadow: 2px 2px 1px rgba(0,0,0,0.1);
+}
+
+#tbl tr {
+  background: #fff;
+}
+
+#tbl tr:nth-child(2n+1) {
+  background: #f1f6fc;
+}
+
+#tbl tr:last-child td {
+
+  box-shadow: 2px 2px 1px rgba(0,0,0,0.1);
+}
+
+#tbl tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+
+#tbl tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
+
+#tbl tr:hover {
+  background: #bbd4ee;
+
+}
+
+input[type="text"]{
+	width: 30px;
+	height: auto;
+	font-size: 10px;
+	border-radius: 3px;
+	box-shadow: innner 0 0 4px rgba(0,0,0,0.2);
+
+}
+
+#imgf {
+	width: auto;
+	height: auto;
+	background: none;
+	margin: auto;
+	display: block;
+}
