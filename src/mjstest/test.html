@@ -7,9 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="../style.css">
 		<!-- <link rel="stylesheet" type="text/css" href="../style.css"> -->
 
-		<script type="text/javascript" src="button.js"></script>
-		<script type="text/javascript" src="tbltest.js"></script>
-		<script type="text/javascript" src="imgdisp.js"></script>
+
 </head>
 <body>
 <header>
@@ -41,19 +39,25 @@
 
 <div>
 	<table　id="tbl2">
-	<tr><th>科目</th>　<th>点数</th></tr>
-		<tr><td></th><td><input type="text" id="tensu1" value="">点</td>　</tr>
-		<tr><td></th><td><input type="text" id="tensu2" value="">点</td></tr>
-		<tr><td></th><td><input type="text" id="tensu3" value=""></td></tr>
-		<tr><td><input type="button" id="sum" value="合計" onclick="calc()"></th><td><input type="text" id="sumcell" value=""></td></tr>
-	</table>
+	<tr><th>科目</th><th>点数</th></tr>
+		<tr><td></td><td><input type="text" id="tensu1" value="">点</td></tr>
+		<tr><td></td><td><input type="text" id="tensu2" value="">点</td></tr>
+		<tr><td></td><td><input type="text" id="tensu3" value=""></td></tr>
+		<tr><td><input type="button" id="sum" value="合計" onclick="calc()"></td>
+			<td><input type="text" id="sumcell" value=""></td></tr>
+	</table　id="tbl2">
 
-
-	</table>
+	
 </div>
 <hr>
-<input type="button" id="b4img" onclick="disp()" value="表示！">
-<div id="fieldimg"></div>
+<input class="b4img" type="button" id="b4img" onclick="disp()" value="表示！">
+
+<canvas id="canvas"></canvas>
+
+<input class="b4img" type="button" id="b4img2" onclick="disp2()" value="表示！">
+<div id="imgdiv">
+</div>
+
 </article>
 
 
@@ -100,6 +104,8 @@
 			</div>
 		</footer>
 	
-
+		<script type="text/javascript" src="button.js"></script>
+		<script type="text/javascript" src="tbltest.js"></script>
+		<script type="text/javascript" src="imgdisp.js"></script>
 </body>
 </html>

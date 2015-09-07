@@ -100,3 +100,16 @@ input[type="text"]{
 	box-shadow: innner 0 0 4px rgba(0,0,0,0.2);
 
 }
+
+#canvas {
+	width: auto;
+	height: auto;
+	background-repeat: no-repeat;
+	margin: auto;
+	display: block;
+}
+
+.b4img {
+	display: block;
+	margin: auto;
+}
