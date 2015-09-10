@@ -1,0 +1,48 @@
+/*  style sheet for application Othello  */
+
+
+
+
+.app_game_board > table {
+	margin: 0 auto;
+}
+
+.app_game_board > table th {
+	margin: 0;
+	padding: 0.125em 0.25em;
+	line-height: 100%;
+}
+
+.app_game_board > table .cell {
+	background: #090;
+	border: 1px solid #ccc;
+	padding: 0;
+	margin: 0;
+	line-height: 0;
+}
+
+.app_game_board > table .cell > .disc {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	border-radius: 1em;
+	margin: 0.25em;
+}
+
+.app_game_board > table .cell.white > .disc {
+	background: #fff;
+}
+
+.app_game_board > table .cell.black > .disc {
+	background: #000;
+}
+
+
+
+.app_current_player {
+	text-align: center;
+}
+
+.app_console { 
+	text-align: center;
+}
